@@ -817,38 +817,38 @@
     },
     "Ego/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/Ego/Ego.csproj",
-      "msbuildProject": "../../Ego/Ego/Ego/Ego.csproj"
+      "path": "../../../Ego/Ego/Ego/Ego.csproj",
+      "msbuildProject": "../../../Ego/Ego/Ego/Ego.csproj"
     },
     "ImGui.NET/1.90.8.1": {
       "type": "project",
-      "path": "../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj",
-      "msbuildProject": "../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj"
+      "path": "../../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj",
+      "msbuildProject": "../../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj"
     },
     "ImGuiIntegration/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj",
-      "msbuildProject": "../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj"
+      "path": "../../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj",
+      "msbuildProject": "../../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj"
     },
     "Platform/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/Platform/Platform.csproj",
-      "msbuildProject": "../../Ego/Ego/Platform/Platform.csproj"
+      "path": "../../../Ego/Ego/Platform/Platform.csproj",
+      "msbuildProject": "../../../Ego/Ego/Platform/Platform.csproj"
     },
     "Rendering/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/Rendering/Rendering.csproj",
-      "msbuildProject": "../../Ego/Ego/Rendering/Rendering.csproj"
+      "path": "../../../Ego/Ego/Rendering/Rendering.csproj",
+      "msbuildProject": "../../../Ego/Ego/Rendering/Rendering.csproj"
     },
     "Utilities/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/Utilities/Utilities.csproj",
-      "msbuildProject": "../../Ego/Ego/Utilities/Utilities.csproj"
+      "path": "../../../Ego/Ego/Utilities/Utilities.csproj",
+      "msbuildProject": "../../../Ego/Ego/Utilities/Utilities.csproj"
     },
     "VulkanApi/1.0.0": {
       "type": "project",
-      "path": "../../Ego/Ego/VulkanApi/VulkanApi.csproj",
-      "msbuildProject": "../../Ego/Ego/VulkanApi/VulkanApi.csproj"
+      "path": "../../../Ego/Ego/VulkanApi/VulkanApi.csproj",
+      "msbuildProject": "../../../Ego/Ego/VulkanApi/VulkanApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -863,11 +863,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj",
+      "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
       "projectName": "TestGame",
-      "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj",
+      "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
       "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\obj\\",
+      "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

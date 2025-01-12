@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj": {}
+    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj": {}
   },
   "projects": {
     "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj": {
@@ -635,14 +635,14 @@
         }
       }
     },
-    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj": {
+    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj",
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
         "projectName": "TestGame",
-        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame.csproj",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
         "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\obj\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

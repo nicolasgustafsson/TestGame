@@ -34,7 +34,7 @@ public partial class Root : Node3D
 {
     private void Inspect()
     {
-        DefaultInspect();
+        DefaultInspect(); 
         ImGui.Text("TestNode"); 
     }
 }
@@ -49,7 +49,7 @@ public partial class Mover : Node3D
     {
         base.Update();
 
-        //LocalPosition += Velocity * (float)Time.DeltaSeconds;
+        LocalPosition += Velocity * (float)Time.DeltaSeconds;
     }
     
     private void Inspect()
