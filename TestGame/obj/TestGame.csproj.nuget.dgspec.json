@@ -1,0 +1,708 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj",
+        "projectName": "Ego",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\ImGuiIntegration.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\ImGuiIntegration.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\ImGuiIntegration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\ImGuiIntegration.csproj",
+        "projectName": "ImGuiIntegration",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\ImGuiIntegration.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\ImGuiIntegration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Vortice.Vulkan": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
+            "Vortice.VulkanMemoryAllocator": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj",
+        "projectName": "Platform",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "glfw-net": {
+              "suppressParent": "Compile",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj",
+        "projectName": "Rendering",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\Rendering.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Rendering\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\src\\ImGui.NET\\ImGui.NET.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\src\\ImGui.NET\\ImGui.NET.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Magick.NET-Q8-x64": {
+              "target": "Package",
+              "version": "[13.9.0, )"
+            },
+            "SharpGLTF.Core": {
+              "target": "Package",
+              "version": "[1.0.0-alpha0031, )"
+            },
+            "SharpGLTF.Toolkit": {
+              "target": "Package",
+              "version": "[1.0.0-alpha0031, )"
+            },
+            "Vortice.ShaderCompiler": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Vortice.Vulkan": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
+            "Vortice.VulkanMemoryAllocator": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "glfw-net": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj",
+        "projectName": "VulkanApi",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\VulkanApi.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\VulkanApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Platform\\Platform.csproj"
+              },
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Vortice.ShaderCompiler": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Vortice.Vulkan": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
+            "Vortice.VulkanMemoryAllocator": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\src\\ImGui.NET\\ImGui.NET.csproj": {
+      "version": "1.90.8.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\src\\ImGui.NET\\ImGui.NET.csproj",
+        "projectName": "ImGui.NET",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\src\\ImGui.NET\\ImGui.NET.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\ImguiDotNet\\bin\\obj\\ImGui.NET\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
+        "projectName": "TestGame",
+        "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
+        "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj": {
+                "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

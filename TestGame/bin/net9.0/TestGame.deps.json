@@ -1,0 +1,498 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TestGame/1.0.0": {
+        "dependencies": {
+          "Ego": "1.0.0"
+        },
+        "runtime": {
+          "TestGame.dll": {}
+        }
+      },
+      "glfw-net/3.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/GLFW.NET.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Magick.NET-Q8-x64/13.9.0": {
+        "dependencies": {
+          "Magick.NET.Core": "13.9.0"
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q8-x64.dll": {
+            "assemblyVersion": "13.9.0.0",
+            "fileVersion": "13.9.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.1.33"
+          }
+        }
+      },
+      "Magick.NET.Core/13.9.0": {
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "assemblyVersion": "13.9.0.0",
+            "fileVersion": "13.9.0.0"
+          }
+        }
+      },
+      "MessagePack/3.1.1": {
+        "dependencies": {
+          "MessagePack.Annotations": "3.1.1",
+          "MessagePackAnalyzer": "3.1.1",
+          "Microsoft.NET.StringTools": "17.11.4"
+        },
+        "runtime": {
+          "lib/net9.0/MessagePack.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "MessagePack.Annotations/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "MessagePackAnalyzer/3.1.1": {},
+      "Microsoft.NET.StringTools/17.11.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.NET.StringTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.11.4.40609"
+          }
+        }
+      },
+      "Serilog/4.2.0": {
+        "runtime": {
+          "lib/net9.0/Serilog.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.0.0": {
+        "dependencies": {
+          "Serilog": "4.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "SharpGLTF.Core/1.0.0-alpha0031": {
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpGLTF.Runtime/1.0.0-alpha0031": {
+        "dependencies": {
+          "SharpGLTF.Core": "1.0.0-alpha0031"
+        },
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Runtime.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpGLTF.Toolkit/1.0.0-alpha0031": {
+        "dependencies": {
+          "SharpGLTF.Runtime": "1.0.0-alpha0031"
+        },
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Toolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {},
+      "System.Numerics.Vectors/4.4.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {},
+      "Vortice.ShaderCompiler/1.7.3": {
+        "runtime": {
+          "lib/net8.0/Vortice.ShaderCompiler.dll": {
+            "assemblyVersion": "1.7.3.0",
+            "fileVersion": "1.7.3.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libshaderc_shared.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/shaderc_shared.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Vortice.Vulkan/1.9.2": {
+        "runtime": {
+          "lib/net8.0/Vortice.Vulkan.dll": {
+            "assemblyVersion": "1.9.2.0",
+            "fileVersion": "1.9.2.0"
+          }
+        }
+      },
+      "Vortice.VulkanMemoryAllocator/1.5.0": {
+        "dependencies": {
+          "Vortice.Vulkan": "1.9.2"
+        },
+        "runtime": {
+          "lib/net8.0/Vortice.VulkanMemoryAllocator.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libvma.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/libvma.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/libvma.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libvma.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libvma.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/vma.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/vma.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Ego/1.0.0": {
+        "dependencies": {
+          "ImGuiIntegration": "1.0.0",
+          "MessagePack": "3.1.1",
+          "Platform": "1.0.0",
+          "Rendering": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Ego.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ImGui.NET/1.90.8.1": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "runtime": {
+          "ImGui.NET.dll": {
+            "assemblyVersion": "1.90.8.1",
+            "fileVersion": "1.90.8.1"
+          }
+        }
+      },
+      "ImGuiIntegration/1.0.0": {
+        "dependencies": {
+          "Platform": "1.0.0",
+          "Rendering": "1.0.0",
+          "Utilities": "1.0.0",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0",
+          "VulkanApi": "1.0.0"
+        },
+        "runtime": {
+          "ImGuiIntegration.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Platform/1.0.0": {
+        "dependencies": {
+          "Utilities": "1.0.0",
+          "glfw-net": "3.3.1"
+        },
+        "runtime": {
+          "Platform.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Rendering/1.0.0": {
+        "dependencies": {
+          "ImGui.NET": "1.90.8.1",
+          "Magick.NET-Q8-x64": "13.9.0",
+          "Platform": "1.0.0",
+          "SharpGLTF.Core": "1.0.0-alpha0031",
+          "SharpGLTF.Toolkit": "1.0.0-alpha0031",
+          "Utilities": "1.0.0",
+          "Vortice.ShaderCompiler": "1.7.3",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0",
+          "VulkanApi": "1.0.0",
+          "glfw-net": "3.3.1"
+        },
+        "runtime": {
+          "Rendering.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Utilities/1.0.0": {
+        "dependencies": {
+          "Serilog": "4.2.0",
+          "Serilog.Sinks.Console": "6.0.0"
+        },
+        "runtime": {
+          "Utilities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VulkanApi/1.0.0": {
+        "dependencies": {
+          "Platform": "1.0.0",
+          "Utilities": "1.0.0",
+          "Vortice.ShaderCompiler": "1.7.3",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0"
+        },
+        "runtime": {
+          "VulkanApi.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "glfw-net/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TpFcYN+/YjBRRJ1O3L6V1y2YpT15AgGn8DRFtsXow76++x9QC8m+mxb38Uv43N4Xh4//k9NkxlIhF/Ci2khqqA==",
+      "path": "glfw-net/3.3.1",
+      "hashPath": "glfw-net.3.3.1.nupkg.sha512"
+    },
+    "Magick.NET-Q8-x64/13.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-moJn2FhUPesTzGDJrxdYRHrpJGxLcU214f+6beHF5gXoDdA3eNxDbavfjoTERqnbJrUaCDHq+kKS5TngpUUkRw==",
+      "path": "magick.net-q8-x64/13.9.0",
+      "hashPath": "magick.net-q8-x64.13.9.0.nupkg.sha512"
+    },
+    "Magick.NET.Core/13.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7NF8Ntd/68WQucvU46vCrbBdZDOkEWjCtCiqKj3bijrj/oaKeKxILgD7iTsaUVQm8E3EgotyQw9b12xuvA6fWA==",
+      "path": "magick.net.core/13.9.0",
+      "hashPath": "magick.net.core.13.9.0.nupkg.sha512"
+    },
+    "MessagePack/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nC7/arPbdsjcvDwLrdp2aJafk3Y8GbjoomvY1oFCJbODAmgURM9JVKrkIcaZSX1GOLtPSQH4/6rM/TNtSx+U4Q==",
+      "path": "messagepack/3.1.1",
+      "hashPath": "messagepack.3.1.1.nupkg.sha512"
+    },
+    "MessagePack.Annotations/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/qHzXoz+SAw8+MDZV6Woge1fWD27v+Ce+9a3AJU7FF7TmXpIvGmALsS0A83RdM0P1utLuJ8UJlhNmjpDJ4y4A==",
+      "path": "messagepack.annotations/3.1.1",
+      "hashPath": "messagepack.annotations.3.1.1.nupkg.sha512"
+    },
+    "MessagePackAnalyzer/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gQeHB5RKo7C033FoUToZsvpabWuBR4ajiDoA0dXVTf7SdrA8sB0EGE04t37dDJ+8jIZ9/rCNYUmE67xKPgPThA==",
+      "path": "messagepackanalyzer/3.1.1",
+      "hashPath": "messagepackanalyzer.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.NET.StringTools/17.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mudqUHhNpeqIdJoUx2YDWZO/I9uEDYVowan89R6wsomfnUJQk6HteoQTlNjZDixhT2B4IXMkMtgZtoceIjLRmA==",
+      "path": "microsoft.net.stringtools/17.11.4",
+      "hashPath": "microsoft.net.stringtools.17.11.4.nupkg.sha512"
+    },
+    "Serilog/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+      "path": "serilog/4.2.0",
+      "hashPath": "serilog.4.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
+      "path": "serilog.sinks.console/6.0.0",
+      "hashPath": "serilog.sinks.console.6.0.0.nupkg.sha512"
+    },
+    "SharpGLTF.Core/1.0.0-alpha0031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFJ/0UrYNVuKl4Cty0xvzAiAZd6GYZw57qi5es/EQbd1Ic+XpbVMV1566aXxxlJFQ0LkTvmI5PhKUjiHNdpmqA==",
+      "path": "sharpgltf.core/1.0.0-alpha0031",
+      "hashPath": "sharpgltf.core.1.0.0-alpha0031.nupkg.sha512"
+    },
+    "SharpGLTF.Runtime/1.0.0-alpha0031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-swop7opkvkw8EfLjL1R98jWYAyowf2L3hlHQZnLTFXRFaN2DIF6vkfi8qdik5pFEI6T/xAAeZjAvsmYktdk2Mg==",
+      "path": "sharpgltf.runtime/1.0.0-alpha0031",
+      "hashPath": "sharpgltf.runtime.1.0.0-alpha0031.nupkg.sha512"
+    },
+    "SharpGLTF.Toolkit/1.0.0-alpha0031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oLX3oHz3ybpEhkz/LSC2QToLhnGAAEucQSNyaac5UiZtlPwgPsDMvbJ0gE6TLOr0Ao1NUv1ZN1ZXHeJt1zeGfg==",
+      "path": "sharpgltf.toolkit/1.0.0-alpha0031",
+      "hashPath": "sharpgltf.toolkit.1.0.0-alpha0031.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    },
+    "Vortice.ShaderCompiler/1.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XpIkxq+GscTyNyAXUwNPqHQ+GtfpLN/oTs82qdU6FCXrJOhOLnFSuLEI1LDmmTPGH4vu7n77STplcBZT2wg88w==",
+      "path": "vortice.shadercompiler/1.7.3",
+      "hashPath": "vortice.shadercompiler.1.7.3.nupkg.sha512"
+    },
+    "Vortice.Vulkan/1.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rAywVxJoq29RG14cL+9KIWdogmAESkZdMLObjTD86RpPEgA20oO7WeZa55NQjBzXrOUYIZDZiwySGkivKzr24w==",
+      "path": "vortice.vulkan/1.9.2",
+      "hashPath": "vortice.vulkan.1.9.2.nupkg.sha512"
+    },
+    "Vortice.VulkanMemoryAllocator/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KKWq9/fhCUdCiqQsU9HowreTxlvdvh26+k7L5p0lK0V1wUj89aODYsUJ0MoxhNVLWPSyPMQCaMagkwPqJJubgA==",
+      "path": "vortice.vulkanmemoryallocator/1.5.0",
+      "hashPath": "vortice.vulkanmemoryallocator.1.5.0.nupkg.sha512"
+    },
+    "Ego/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGui.NET/1.90.8.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGuiIntegration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Platform/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rendering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VulkanApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

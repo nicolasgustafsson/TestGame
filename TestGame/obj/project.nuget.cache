@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "05wRnNxk4rQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nicos\\.nuget\\packages\\glfw-net\\3.3.1\\glfw-net.3.3.1.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\magick.net-q8-x64\\13.9.0\\magick.net-q8-x64.13.9.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\magick.net.core\\13.9.0\\magick.net.core.13.9.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\messagepack\\3.1.1\\messagepack.3.1.1.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\messagepack.annotations\\3.1.1\\messagepack.annotations.3.1.1.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\messagepackanalyzer\\3.1.1\\messagepackanalyzer.3.1.1.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\microsoft.net.stringtools\\17.11.4\\microsoft.net.stringtools.17.11.4.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\sharpgltf.core\\1.0.0-alpha0031\\sharpgltf.core.1.0.0-alpha0031.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\sharpgltf.runtime\\1.0.0-alpha0031\\sharpgltf.runtime.1.0.0-alpha0031.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\sharpgltf.toolkit\\1.0.0-alpha0031\\sharpgltf.toolkit.1.0.0-alpha0031.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\vortice.shadercompiler\\1.7.3\\vortice.shadercompiler.1.7.3.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\vortice.vulkan\\1.9.2\\vortice.vulkan.1.9.2.nupkg.sha512",
+    "C:\\Users\\Nicos\\.nuget\\packages\\vortice.vulkanmemoryallocator\\1.5.0\\vortice.vulkanmemoryallocator.1.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

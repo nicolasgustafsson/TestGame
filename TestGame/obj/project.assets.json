@@ -1,0 +1,932 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "glfw-net/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GLFW.NET.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/GLFW.NET.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Magick.NET-Q8-x64/13.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "13.9.0"
+        },
+        "compile": {
+          "lib/netstandard21/Magick.NET-Q8-x64.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q8-x64.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard20/Magick.NET-Q8-x64.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Magick.NET.Core/13.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MessagePack/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "MessagePack.Annotations": "3.1.1",
+          "MessagePackAnalyzer": "3.1.1",
+          "Microsoft.NET.StringTools": "17.11.4"
+        },
+        "compile": {
+          "lib/net9.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MessagePack.Annotations/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MessagePackAnalyzer/3.1.1": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.NET.StringTools/17.11.4": {
+        "type": "package",
+        "compile": {
+          "ref/net8.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.NET.StringTools.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Serilog/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Serilog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "4.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpGLTF.Core/1.0.0-alpha0031": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/SharpGLTF.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpGLTF.Runtime/1.0.0-alpha0031": {
+        "type": "package",
+        "dependencies": {
+          "SharpGLTF.Core": "1.0.0-alpha0031"
+        },
+        "compile": {
+          "lib/net8.0/SharpGLTF.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpGLTF.Toolkit/1.0.0-alpha0031": {
+        "type": "package",
+        "dependencies": {
+          "SharpGLTF.Runtime": "1.0.0-alpha0031"
+        },
+        "compile": {
+          "lib/net8.0/SharpGLTF.Toolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SharpGLTF.Toolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Vortice.ShaderCompiler/1.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Vortice.ShaderCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Vortice.ShaderCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libshaderc_shared.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/win-x64/native/shaderc_shared.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Vortice.Vulkan/1.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Vortice.Vulkan.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Vortice.Vulkan.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Vortice.VulkanMemoryAllocator/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Vortice.Vulkan": "1.9.0"
+        },
+        "compile": {
+          "lib/net8.0/Vortice.VulkanMemoryAllocator.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Vortice.VulkanMemoryAllocator.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libvma.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libvma.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libvma.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/linux-x64/native/libvma.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libvma.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-arm64/native/vma.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/vma.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Ego/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ImGuiIntegration": "1.0.0",
+          "MessagePack": "3.1.1",
+          "Platform": "1.0.0",
+          "Rendering": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ego.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ego.dll": {}
+        }
+      },
+      "ImGui.NET/1.90.8.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
+        },
+        "compile": {
+          "bin/placeholder/ImGui.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImGui.NET.dll": {}
+        }
+      },
+      "ImGuiIntegration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Platform": "1.0.0",
+          "Rendering": "1.0.0",
+          "Utilities": "1.0.0",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0",
+          "VulkanApi": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ImGuiIntegration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImGuiIntegration.dll": {}
+        }
+      },
+      "Platform/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Utilities": "1.0.0",
+          "glfw-net": "3.3.1"
+        },
+        "compile": {
+          "bin/placeholder/Platform.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Platform.dll": {}
+        }
+      },
+      "Rendering/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ImGui.NET": "1.90.8.1",
+          "Magick.NET-Q8-x64": "13.9.0",
+          "Platform": "1.0.0",
+          "SharpGLTF.Core": "1.0.0-alpha0031",
+          "SharpGLTF.Toolkit": "1.0.0-alpha0031",
+          "Utilities": "1.0.0",
+          "Vortice.ShaderCompiler": "1.7.3",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0",
+          "VulkanApi": "1.0.0",
+          "glfw-net": "3.3.1"
+        },
+        "compile": {
+          "bin/placeholder/Rendering.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rendering.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Serilog": "4.2.0",
+          "Serilog.Sinks.Console": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
+      },
+      "VulkanApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Platform": "1.0.0",
+          "Utilities": "1.0.0",
+          "Vortice.ShaderCompiler": "1.7.3",
+          "Vortice.Vulkan": "1.9.2",
+          "Vortice.VulkanMemoryAllocator": "1.5.0"
+        },
+        "compile": {
+          "bin/placeholder/VulkanApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VulkanApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "glfw-net/3.3.1": {
+      "sha512": "TpFcYN+/YjBRRJ1O3L6V1y2YpT15AgGn8DRFtsXow76++x9QC8m+mxb38Uv43N4Xh4//k9NkxlIhF/Ci2khqqA==",
+      "type": "package",
+      "path": "glfw-net/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glfw-net.3.3.1.nupkg.sha512",
+        "glfw-net.nuspec",
+        "lib/netstandard2.0/GLFW.NET.dll",
+        "lib/netstandard2.0/GLFW.NET.xml"
+      ]
+    },
+    "Magick.NET-Q8-x64/13.9.0": {
+      "sha512": "moJn2FhUPesTzGDJrxdYRHrpJGxLcU214f+6beHF5gXoDdA3eNxDbavfjoTERqnbJrUaCDHq+kKS5TngpUUkRw==",
+      "type": "package",
+      "path": "magick.net-q8-x64/13.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Magick.NET.icon.png",
+        "Notice.linux-musl.txt",
+        "Notice.linux.txt",
+        "Notice.osx.txt",
+        "Notice.win.txt",
+        "build/netstandard20/Magick.NET-Q8-x64.targets",
+        "buildTransitive/netstandard20/Magick.NET-Q8-x64.targets",
+        "docs/Readme.md",
+        "lib/netstandard20/Magick.NET-Q8-x64.dll",
+        "lib/netstandard20/Magick.NET-Q8-x64.xml",
+        "lib/netstandard21/Magick.NET-Q8-x64.dll",
+        "lib/netstandard21/Magick.NET-Q8-x64.xml",
+        "magick.net-q8-x64.13.9.0.nupkg.sha512",
+        "magick.net-q8-x64.nuspec",
+        "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so",
+        "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q8-x64.dll"
+      ]
+    },
+    "Magick.NET.Core/13.9.0": {
+      "sha512": "7NF8Ntd/68WQucvU46vCrbBdZDOkEWjCtCiqKj3bijrj/oaKeKxILgD7iTsaUVQm8E3EgotyQw9b12xuvA6fWA==",
+      "type": "package",
+      "path": "magick.net.core/13.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Magick.NET.icon.png",
+        "docs/Readme.md",
+        "lib/netstandard20/Magick.NET.Core.dll",
+        "lib/netstandard20/Magick.NET.Core.xml",
+        "lib/netstandard21/Magick.NET.Core.dll",
+        "lib/netstandard21/Magick.NET.Core.xml",
+        "magick.net.core.13.9.0.nupkg.sha512",
+        "magick.net.core.nuspec"
+      ]
+    },
+    "MessagePack/3.1.1": {
+      "sha512": "nC7/arPbdsjcvDwLrdp2aJafk3Y8GbjoomvY1oFCJbODAmgURM9JVKrkIcaZSX1GOLtPSQH4/6rM/TNtSx+U4Q==",
+      "type": "package",
+      "path": "messagepack/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/MessagePack.dll",
+        "lib/net472/MessagePack.xml",
+        "lib/net8.0/MessagePack.dll",
+        "lib/net8.0/MessagePack.xml",
+        "lib/net9.0/MessagePack.dll",
+        "lib/net9.0/MessagePack.xml",
+        "lib/netstandard2.0/MessagePack.dll",
+        "lib/netstandard2.0/MessagePack.xml",
+        "lib/netstandard2.1/MessagePack.dll",
+        "lib/netstandard2.1/MessagePack.xml",
+        "messagepack.3.1.1.nupkg.sha512",
+        "messagepack.nuspec"
+      ]
+    },
+    "MessagePack.Annotations/3.1.1": {
+      "sha512": "z/qHzXoz+SAw8+MDZV6Woge1fWD27v+Ce+9a3AJU7FF7TmXpIvGmALsS0A83RdM0P1utLuJ8UJlhNmjpDJ4y4A==",
+      "type": "package",
+      "path": "messagepack.annotations/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MessagePack.Annotations.dll",
+        "lib/netstandard2.0/MessagePack.Annotations.xml",
+        "messagepack.annotations.3.1.1.nupkg.sha512",
+        "messagepack.annotations.nuspec"
+      ]
+    },
+    "MessagePackAnalyzer/3.1.1": {
+      "sha512": "gQeHB5RKo7C033FoUToZsvpabWuBR4ajiDoA0dXVTf7SdrA8sB0EGE04t37dDJ+8jIZ9/rCNYUmE67xKPgPThA==",
+      "type": "package",
+      "path": "messagepackanalyzer/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/roslyn4.3/cs/MessagePack.Analyzers.CodeFixes.dll",
+        "analyzers/roslyn4.3/cs/MessagePack.SourceGenerator.dll",
+        "build/MessagePackAnalyzer.targets",
+        "messagepackanalyzer.3.1.1.nupkg.sha512",
+        "messagepackanalyzer.nuspec"
+      ]
+    },
+    "Microsoft.NET.StringTools/17.11.4": {
+      "sha512": "mudqUHhNpeqIdJoUx2YDWZO/I9uEDYVowan89R6wsomfnUJQk6HteoQTlNjZDixhT2B4IXMkMtgZtoceIjLRmA==",
+      "type": "package",
+      "path": "microsoft.net.stringtools/17.11.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuild-NuGet-Icon.png",
+        "README.md",
+        "lib/net472/Microsoft.NET.StringTools.dll",
+        "lib/net472/Microsoft.NET.StringTools.pdb",
+        "lib/net472/Microsoft.NET.StringTools.xml",
+        "lib/net8.0/Microsoft.NET.StringTools.dll",
+        "lib/net8.0/Microsoft.NET.StringTools.pdb",
+        "lib/net8.0/Microsoft.NET.StringTools.xml",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.pdb",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.xml",
+        "microsoft.net.stringtools.17.11.4.nupkg.sha512",
+        "microsoft.net.stringtools.nuspec",
+        "notices/THIRDPARTYNOTICES.txt",
+        "ref/net472/Microsoft.NET.StringTools.dll",
+        "ref/net472/Microsoft.NET.StringTools.xml",
+        "ref/net8.0/Microsoft.NET.StringTools.dll",
+        "ref/net8.0/Microsoft.NET.StringTools.xml",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
+      ]
+    },
+    "Serilog/4.2.0": {
+      "sha512": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+      "type": "package",
+      "path": "serilog/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
+        "lib/net471/Serilog.dll",
+        "lib/net471/Serilog.xml",
+        "lib/net6.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
+        "lib/net9.0/Serilog.dll",
+        "lib/net9.0/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.4.2.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/6.0.0": {
+      "sha512": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
+      "type": "package",
+      "path": "serilog.sinks.console/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.xml",
+        "lib/net471/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.xml",
+        "lib/net6.0/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.xml",
+        "lib/net8.0/Serilog.Sinks.Console.dll",
+        "lib/net8.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.6.0.0.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
+      ]
+    },
+    "SharpGLTF.Core/1.0.0-alpha0031": {
+      "sha512": "lFJ/0UrYNVuKl4Cty0xvzAiAZd6GYZw57qi5es/EQbd1Ic+XpbVMV1566aXxxlJFQ0LkTvmI5PhKUjiHNdpmqA==",
+      "type": "package",
+      "path": "sharpgltf.core/1.0.0-alpha0031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glTF2Sharp.png",
+        "lib/net6.0/SharpGLTF.Core.dll",
+        "lib/net6.0/SharpGLTF.Core.xml",
+        "lib/net8.0/SharpGLTF.Core.dll",
+        "lib/net8.0/SharpGLTF.Core.xml",
+        "lib/netstandard2.0/SharpGLTF.Core.dll",
+        "lib/netstandard2.0/SharpGLTF.Core.xml",
+        "lib/netstandard2.1/SharpGLTF.Core.dll",
+        "lib/netstandard2.1/SharpGLTF.Core.xml",
+        "sharpgltf.core.1.0.0-alpha0031.nupkg.sha512",
+        "sharpgltf.core.nuspec"
+      ]
+    },
+    "SharpGLTF.Runtime/1.0.0-alpha0031": {
+      "sha512": "swop7opkvkw8EfLjL1R98jWYAyowf2L3hlHQZnLTFXRFaN2DIF6vkfi8qdik5pFEI6T/xAAeZjAvsmYktdk2Mg==",
+      "type": "package",
+      "path": "sharpgltf.runtime/1.0.0-alpha0031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glTF2Sharp.png",
+        "lib/net6.0/SharpGLTF.Runtime.dll",
+        "lib/net6.0/SharpGLTF.Runtime.xml",
+        "lib/net8.0/SharpGLTF.Runtime.dll",
+        "lib/net8.0/SharpGLTF.Runtime.xml",
+        "lib/netstandard2.0/SharpGLTF.Runtime.dll",
+        "lib/netstandard2.0/SharpGLTF.Runtime.xml",
+        "lib/netstandard2.1/SharpGLTF.Runtime.dll",
+        "lib/netstandard2.1/SharpGLTF.Runtime.xml",
+        "sharpgltf.runtime.1.0.0-alpha0031.nupkg.sha512",
+        "sharpgltf.runtime.nuspec"
+      ]
+    },
+    "SharpGLTF.Toolkit/1.0.0-alpha0031": {
+      "sha512": "oLX3oHz3ybpEhkz/LSC2QToLhnGAAEucQSNyaac5UiZtlPwgPsDMvbJ0gE6TLOr0Ao1NUv1ZN1ZXHeJt1zeGfg==",
+      "type": "package",
+      "path": "sharpgltf.toolkit/1.0.0-alpha0031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glTF2Sharp.png",
+        "lib/net6.0/SharpGLTF.Toolkit.dll",
+        "lib/net6.0/SharpGLTF.Toolkit.xml",
+        "lib/net8.0/SharpGLTF.Toolkit.dll",
+        "lib/net8.0/SharpGLTF.Toolkit.xml",
+        "lib/netstandard2.0/SharpGLTF.Toolkit.dll",
+        "lib/netstandard2.0/SharpGLTF.Toolkit.xml",
+        "lib/netstandard2.1/SharpGLTF.Toolkit.dll",
+        "lib/netstandard2.1/SharpGLTF.Toolkit.xml",
+        "sharpgltf.toolkit.1.0.0-alpha0031.nupkg.sha512",
+        "sharpgltf.toolkit.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+      "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Vortice.ShaderCompiler/1.7.3": {
+      "sha512": "XpIkxq+GscTyNyAXUwNPqHQ+GtfpLN/oTs82qdU6FCXrJOhOLnFSuLEI1LDmmTPGH4vu7n77STplcBZT2wg88w==",
+      "type": "package",
+      "path": "vortice.shadercompiler/1.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/net461/Vortice.ShaderCompiler.props",
+        "lib/net7.0/Vortice.ShaderCompiler.dll",
+        "lib/net7.0/Vortice.ShaderCompiler.pdb",
+        "lib/net7.0/Vortice.ShaderCompiler.xml",
+        "lib/net8.0/Vortice.ShaderCompiler.dll",
+        "lib/net8.0/Vortice.ShaderCompiler.pdb",
+        "lib/net8.0/Vortice.ShaderCompiler.xml",
+        "runtimes/linux-x64/native/libshaderc_shared.so",
+        "runtimes/win-x64/native/shaderc_shared.dll",
+        "vortice.shadercompiler.1.7.3.nupkg.sha512",
+        "vortice.shadercompiler.nuspec"
+      ]
+    },
+    "Vortice.Vulkan/1.9.2": {
+      "sha512": "rAywVxJoq29RG14cL+9KIWdogmAESkZdMLObjTD86RpPEgA20oO7WeZa55NQjBzXrOUYIZDZiwySGkivKzr24w==",
+      "type": "package",
+      "path": "vortice.vulkan/1.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Vortice.Vulkan.dll",
+        "lib/net8.0/Vortice.Vulkan.pdb",
+        "lib/net8.0/Vortice.Vulkan.xml",
+        "vortice.vulkan.1.9.2.nupkg.sha512",
+        "vortice.vulkan.nuspec"
+      ]
+    },
+    "Vortice.VulkanMemoryAllocator/1.5.0": {
+      "sha512": "KKWq9/fhCUdCiqQsU9HowreTxlvdvh26+k7L5p0lK0V1wUj89aODYsUJ0MoxhNVLWPSyPMQCaMagkwPqJJubgA==",
+      "type": "package",
+      "path": "vortice.vulkanmemoryallocator/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Vortice.VulkanMemoryAllocator.dll",
+        "lib/net8.0/Vortice.VulkanMemoryAllocator.pdb",
+        "lib/net8.0/Vortice.VulkanMemoryAllocator.xml",
+        "runtimes/android-arm/native/libvma.so",
+        "runtimes/android-arm64/native/libvma.so",
+        "runtimes/android-x64/native/libvma.so",
+        "runtimes/linux-x64/native/libvma.so",
+        "runtimes/osx/native/libvma.dylib",
+        "runtimes/win-arm64/native/vma.dll",
+        "runtimes/win-x64/native/vma.dll",
+        "vortice.vulkanmemoryallocator.1.5.0.nupkg.sha512",
+        "vortice.vulkanmemoryallocator.nuspec"
+      ]
+    },
+    "Ego/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/Ego/Ego.csproj",
+      "msbuildProject": "../../../Ego/Ego/Ego/Ego.csproj"
+    },
+    "ImGui.NET/1.90.8.1": {
+      "type": "project",
+      "path": "../../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj",
+      "msbuildProject": "../../../Ego/ImguiDotNet/src/ImGui.NET/ImGui.NET.csproj"
+    },
+    "ImGuiIntegration/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj",
+      "msbuildProject": "../../../Ego/Ego/ImGuiIntegration/ImGuiIntegration.csproj"
+    },
+    "Platform/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/Platform/Platform.csproj",
+      "msbuildProject": "../../../Ego/Ego/Platform/Platform.csproj"
+    },
+    "Rendering/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/Rendering/Rendering.csproj",
+      "msbuildProject": "../../../Ego/Ego/Rendering/Rendering.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/Utilities/Utilities.csproj",
+      "msbuildProject": "../../../Ego/Ego/Utilities/Utilities.csproj"
+    },
+    "VulkanApi/1.0.0": {
+      "type": "project",
+      "path": "../../../Ego/Ego/VulkanApi/VulkanApi.csproj",
+      "msbuildProject": "../../../Ego/Ego/VulkanApi/VulkanApi.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Ego >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nicos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
+      "projectName": "TestGame",
+      "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\TestGame.csproj",
+      "packagesPath": "C:\\Users\\Nicos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nicos\\Desktop\\Projects\\TestGame\\TestGame\\TestGame\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Nicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj": {
+              "projectPath": "C:\\Users\\Nicos\\Desktop\\Projects\\Ego\\Ego\\Ego\\Ego.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
